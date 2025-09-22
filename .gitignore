@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Data files (generated files - don't commit)
+data/*.parquet
+data/*.csv
+*.parquet
+*.csv
+
+# Generated directories and files
+logs/
+.env
+
+# Logs
+logs/
+*.log
+airflow/logs/
+
+# Airflow
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# Docker and runtime files (don't commit)
+.docker/
+docker-compose.override.yml
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+
+# Temporary and cache files
+*.tmp
+*.temp
+tmp/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Database files (don't commit local DBs)
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Node modules (if any JS tools are added)
+node_modules/

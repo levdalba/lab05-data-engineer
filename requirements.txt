@@ -1,0 +1,17 @@
+# Airflow core dependencies
+apache-airflow==2.7.3
+apache-airflow-providers-postgres==5.6.1
+
+# Data processing dependencies
+pandas==2.1.4
+pyarrow==14.0.1
+numpy==1.24.4
+
+# Data generation dependencies
+faker==20.1.0
+
+# PostgreSQL dependencies
+psycopg2-binary==2.9.9
+
+# Additional utilities
+python-dotenv==1.0.0
